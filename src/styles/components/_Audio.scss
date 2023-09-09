@@ -1,0 +1,54 @@
+.content-preview {
+  color: #333;
+  min-width: 25rem;
+  max-width: 25rem;
+  height: 22rem;
+  background-color: #eaeaea;
+  border-radius: 15px;
+  overflow: hidden;
+
+  &-img {
+    background-color: #999;
+    width: 100%;
+    height: 15rem;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+
+    position: relative;
+    &-duration {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      font-size: 1.5rem;
+      margin: 0.3rem;
+      padding: 0 0.3rem;
+      color: #eaeaea;
+      background-color: #000;
+    }
+  }
+
+  position: relative;
+  &-play {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 3rem;
+    cursor: pointer;
+  }
+
+  &-info {
+    width: 80%;
+    padding: 0.5rem;
+
+    h2 {
+      height: 3.8rem;
+      line-height: 1.2;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}

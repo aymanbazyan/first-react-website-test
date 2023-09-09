@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap");
+.home {
+  color: #eaeaea;
+  padding: 2.4rem;
+}
+.home__list {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-auto-rows: 25rem;
+  grid-auto-flow: dense;
+  justify-items: center;
+}
+
+.navbar {
+  height: 5rem;
+  background-color: #eaeaea;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 100%;
+}
+.navbar .logo {
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-self: start;
+}
+.navbar .menu {
+  position: absolute;
+  height: 5rem;
+  right: 2rem;
+  font-size: 3rem;
+}
+.navbar ul {
+  font-size: 2.5rem;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+.navbar ul li {
+  cursor: pointer;
+  line-height: 1;
+}
+.navbar ul li a:link,
+.navbar ul li a:visited {
+  color: inherit;
+  height: 100%;
+  text-decoration: none;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.sidebar {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #333;
+  height: 100%;
+  width: 0;
+  padding: 2rem;
+  z-index: 1;
+}
+.sidebar .close {
+  font-size: 2.8rem;
+  color: #eaeaea;
+  height: 3rem;
+  width: 3rem;
+  padding: 0.8rem;
+}
+.sidebar ul {
+  font-size: 2.4rem;
+  color: #eaeaea;
+  width: -moz-fit-content;
+  width: fit-content;
+  list-style: none;
+  display: flex;
+  gap: 2.8rem;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.sidebar ul li a:link,
+.sidebar ul li a:visited {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.sidebar-active {
+  display: block;
+  width: 25rem;
+}
+
+.content-preview {
+  color: #333;
+  min-width: 25rem;
+  max-width: 25rem;
+  height: 22rem;
+  background-color: #eaeaea;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+.content-preview-img {
+  background-color: #999;
+  width: 100%;
+  height: 15rem;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  position: relative;
+}
+.content-preview-img-duration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 1.5rem;
+  margin: 0.3rem;
+  padding: 0 0.3rem;
+  color: #eaeaea;
+  background-color: #000;
+}
+.content-preview-play {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 3rem;
+  cursor: pointer;
+}
+.content-preview-info {
+  width: 80%;
+  padding: 0.5rem;
+}
+.content-preview-info h2 {
+  height: 3.8rem;
+  line-height: 1.2;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Cairo", sans-serif;
+  background-color: #36454f;
+}
+
+@media only screen and (min-width: 46.875em) {
+  .navbar .menu {
+    display: none;
+  }
+}
+@media only screen and (max-width: 46.875em) {
+  .navbar ul {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 46.875em) {
+  .sidebar {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */

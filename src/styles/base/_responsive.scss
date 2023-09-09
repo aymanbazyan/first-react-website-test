@@ -1,0 +1,39 @@
+@mixin respond($breakpoint) {
+  @if $breakpoint == 750 {
+    @media only screen and (max-width: 46.875em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == min750 {
+    @media only screen and (min-width: 46.875em) {
+      @content;
+    }
+  }
+
+  // @if $breakpoint == 600 {
+  //   @media only screen and (max-width: 37.5em) {
+  //     @content;
+  //   }
+  // }
+}
+
+.navbar {
+  .menu {
+    @include respond(min750) {
+      display: none;
+    }
+  }
+
+  ul {
+    @include respond(750) {
+      display: none;
+    }
+  }
+}
+
+.sidebar {
+  @include respond(min750) {
+    display: none;
+  }
+}
