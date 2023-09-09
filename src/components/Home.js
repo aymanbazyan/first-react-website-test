@@ -19,6 +19,40 @@ const homeContent = [
     url: "https://ia802709.us.archive.org/8/items/20230722_20230722_1516/%D9%85%D8%A7%D8%B6%20%D9%83%D8%A7%D9%84%D8%B3%D9%8A%D9%81.mp3",
     id: "2",
   },
+  {
+    title: "coooool audio ver recomend",
+    author: "Jamab jamolaaaa",
+    duration: "03:10",
+    image:
+      "https://media.istockphoto.com/id/131723828/vector/on-patrol.jpg?s=612x612&w=0&k=20&c=iBZUXNi_AJjhtxqJfwcrIFhtKR1Oj9Dlfc21N_fyx4c=",
+    url: "https://ia902709.us.archive.org/8/items/20230722_20230722_1516/%D9%85%D8%A7%20%D9%87%D9%85%20%D8%A8%D8%A3%D9%85%D8%A9%20%D8%A7%D8%AD%D9%85%D8%AF.mp3",
+    id: "3",
+  },
+  {
+    title: "toxinaaaa topxin",
+    author: "Jamab jamolaaaa",
+    duration: "05:11",
+    image: "https://i1.sndcdn.com/avatars-J2DJT6ywqe0hZFNx-ek2h1g-t500x500.jpg",
+    url: "https://ia802709.us.archive.org/8/items/20230722_20230722_1516/%D9%85%D8%A7%D8%B6%20%D9%83%D8%A7%D9%84%D8%B3%D9%8A%D9%81.mp3",
+    id: "4",
+  },
+  {
+    title: "coooool audio ver recomend",
+    author: "Jamab jamolaaaa",
+    duration: "03:10",
+    image:
+      "https://media.istockphoto.com/id/131723828/vector/on-patrol.jpg?s=612x612&w=0&k=20&c=iBZUXNi_AJjhtxqJfwcrIFhtKR1Oj9Dlfc21N_fyx4c=",
+    url: "https://ia902709.us.archive.org/8/items/20230722_20230722_1516/%D9%85%D8%A7%20%D9%87%D9%85%20%D8%A8%D8%A3%D9%85%D8%A9%20%D8%A7%D8%AD%D9%85%D8%AF.mp3",
+    id: "5",
+  },
+  {
+    title: "toxinaaaa topxin",
+    author: "Jamab jamolaaaa",
+    duration: "05:11",
+    image: "https://i1.sndcdn.com/avatars-J2DJT6ywqe0hZFNx-ek2h1g-t500x500.jpg",
+    url: "https://ia802709.us.archive.org/8/items/20230722_20230722_1516/%D9%85%D8%A7%D8%B6%20%D9%83%D8%A7%D9%84%D8%B3%D9%8A%D9%81.mp3",
+    id: "6",
+  },
 ];
 
 let curItem, curAuido;
